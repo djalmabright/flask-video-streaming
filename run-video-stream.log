@@ -11,4 +11,4 @@ Starting camera thread.
 127.0.0.1 - - [12/Jul/2018 15:18:07] "GET /favicon.ico HTTP/1.1" 404 -
 127.0.0.1 - - [12/Jul/2018 15:18:09] "GET /favicon.ico HTTP/1.1" 404 -
 $ pip install gunicorn 
-gunicorn --threads 5 --workers 1 --bind 127.0.0.1:5000 app:app
+$ gunicorn --threads 5 --workers 1 --bind 127.0.0.1:5000 app:app
